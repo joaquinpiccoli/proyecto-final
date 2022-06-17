@@ -1,0 +1,24 @@
+@import "../base/variables";
+
+.cont-footer {
+background-color: nth($colors, 1);
+
+    .cont-contacto {
+        margin-top: 24px;
+    }
+
+    .contacto {
+        font-size: nth($encabezados, 6);
+        margin-top: 20px;
+    }
+
+    .cont-redes {
+        margin-top: 24px;
+    }
+
+    .imgredes {
+        width: 40px;
+        height: 40px;
+        margin-left: 32px;
+    }
+}

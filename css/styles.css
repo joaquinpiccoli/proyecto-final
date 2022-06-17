@@ -1,0 +1,114 @@
+.logo-logo {
+  width: 40px;
+  height: 40px;
+}
+
+.navbar {
+  background-color: #6c757d;
+}
+.navbar .nav-link {
+  font-size: 24px;
+  color: #dee2e6;
+}
+
+.main-home {
+  margin-top: 20px;
+}
+.main-home .cont-centra {
+  background-image: #ccd5ae;
+}
+.main-home .h2-inicio {
+  text-align: center;
+  margin-top: 24px;
+}
+.main-home .parrafo-centra {
+  margin-top: 100px;
+  font-size: 20px;
+}
+.main-home .centra-1 {
+  width: 100%;
+  margin-top: 44px;
+}
+
+.cont-footer {
+  background-color: #6c757d;
+}
+.cont-footer .cont-contacto {
+  margin-top: 24px;
+}
+.cont-footer .contacto {
+  font-size: 20px;
+  margin-top: 20px;
+}
+.cont-footer .cont-redes {
+  margin-top: 24px;
+}
+.cont-footer .imgredes {
+  width: 40px;
+  height: 40px;
+  margin-left: 32px;
+}
+
+body {
+  background-color: #ccd5ae;
+}
+
+.tonos {
+  margin-left: -100px;
+  width: 120%;
+  height: 100%;
+}
+
+.cont-blanqueamiento {
+  background-color: #ccd5ae;
+}
+.cont-blanqueamiento p {
+  font-size: 24px;
+}
+
+.ul-eleginos {
+  padding-top: 120px;
+  text-align: center;
+  background-color: #ccd5ae;
+}
+.ul-eleginos .li-eleginos {
+  font-size: 20px;
+  list-style: none;
+}
+
+.celular {
+  width: 100%;
+}
+
+/* MAP Y MAP GET*/
+.iconoServicio1 {
+  color: #fff;
+}
+
+.iconoServicio2 {
+  color: #198564;
+}
+
+.iconoServicio3 {
+  color: #00acee;
+}
+
+/* EXTEND */
+.titulares, .titulo-principal {
+  font-size: 38px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px #000;
+}
+
+.titulo-principal {
+  color: #fff;
+  font-size: 36px;
+}
+
+/* MIXIN */
+.seccion-home {
+  padding: 16px;
+  background-color: #72777c;
+}
+
+/*# sourceMappingURL=styles.css.map */

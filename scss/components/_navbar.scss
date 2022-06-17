@@ -1,0 +1,15 @@
+@import "../base/variables";
+
+.logo-logo{
+    width: 40px;
+    height: 40px;
+}
+
+.navbar {
+    background-color: nth($colors, 1);
+
+    .nav-link {
+        font-size: nth($encabezados, 5);
+        color: nth($colors, 3);
+    }
+}

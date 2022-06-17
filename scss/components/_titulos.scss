@@ -1,0 +1,10 @@
+@import "../base/variables";
+
+
+.tituloeleginos {
+    background-color: nth($colors, 1);
+    color: nth($colors, 3);
+    text-align: center;
+    padding: 4px;
+    margin-top: 20px;
+}

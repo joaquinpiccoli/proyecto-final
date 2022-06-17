@@ -1,0 +1,24 @@
+@import "../base/variables";
+
+.main-home {
+    margin-top: 20px;
+
+    .cont-centra {
+        background-image: nth($colors, 2);
+    }
+
+    .h2-inicio {
+        text-align: center;
+        margin-top: 24px;
+    }
+
+    .parrafo-centra {
+        margin-top: 100px;
+        font-size:nth($encabezados, 6);
+    }
+
+    .centra-1 {
+        width: 100%;
+        margin-top: 44px;
+    }
+}

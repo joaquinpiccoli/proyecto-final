@@ -1,0 +1,79 @@
+@import "components/navbar";
+@import "components/_main";
+@import "components/_footer";
+
+
+
+body{
+    background-color: nth($colors, 2);
+}
+
+
+.tonos {
+    margin-left: -100px;
+    width: 120%;
+    height: 100%;
+}
+
+.cont-blanqueamiento {
+    background-color: nth($colors, 2);
+
+    p {
+        font-size: 24px;
+    }
+}
+
+.ul-eleginos {
+    padding-top: 120px;
+    text-align: center;
+    background-color: nth($colors, 2);
+
+    .li-eleginos {
+        font-size: 20px;
+        list-style: none;
+    }
+}
+
+.celular{
+    width: 100%;
+}
+
+
+/* MAP Y MAP GET*/
+
+$iconoServicios: (
+    icono1:#fff,
+    icono2:#198564,
+    icono3:#00acee
+);
+.iconoServicio1{
+    color: map-get($iconoServicios , icono1);
+}
+.iconoServicio2{
+    color: map-get($iconoServicios , icono2);
+}
+.iconoServicio3{
+    color: map-get($iconoServicios , icono3);
+}
+
+/* EXTEND */
+.titulares{
+    font-size: 38px;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px #000;
+}
+.titulo-principal{
+    @extend .titulares;
+    color: #fff;
+    font-size: 36px;
+}
+
+/* MIXIN */
+@mixin background-seccion($color) {
+    padding: 16px;
+    background-color: $color;
+}
+
+.seccion-home{
+    @include background-seccion(#72777c);
+}
