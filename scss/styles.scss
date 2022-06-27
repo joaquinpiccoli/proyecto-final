@@ -1,6 +1,7 @@
 @import "components/navbar";
 @import "components/_main";
 @import "components/_footer";
+@import "components/titulos";
 
 
 
@@ -8,9 +9,13 @@ body{
     background-color: nth($colors, 2);
 }
 
+.active{
+    font-weight: bold;
+    border-bottom: 1px solid;
+    color: #fff !important;
+}
 
 .tonos {
-    margin-left: -100px;
     width: 100%;
     height: 100%;
 }
@@ -27,6 +32,7 @@ body{
     padding-top: 120px;
     text-align: center;
     background-color: nth($colors, 2);
+list-style: none;
 
     .li-eleginos {
         font-size: 20px;
@@ -61,11 +67,17 @@ $iconoServicios: (
     font-size: 38px;
     font-weight: bold;
     text-shadow: 1px 1px 3px #000;
+    background-color: nth($colors, 1);
+    padding: 16px 0;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
 }
 .titulo-principal{
     @extend .titulares;
     color: #fff;
     font-size: 36px;
+
 }
 
 /* MIXIN */
